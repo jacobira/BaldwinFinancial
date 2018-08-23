@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background-image: url("app/media-items/background.jpg");
+  background-size: cover;
+  min-width: 1200px;
+}

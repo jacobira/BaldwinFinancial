@@ -1,3 +1,8 @@
-<p>
-  navbar works!
-</p>
+<div class="navbar">
+  <div class="logoSection">
+    <div class="logo">LOGO</div>
+  </div>
+  <div class="navBtnSection" *ngFor = "let button of buttons">
+    <app-navbar-button id="{{button}}">{{button}}</app-navbar-button>
+  </div>
+</div>

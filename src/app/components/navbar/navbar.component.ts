@@ -12,4 +12,6 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  buttons: string[] = ['Home', 'CMA Classes', 'Financial Services', 'About Rocky'];
+
 }

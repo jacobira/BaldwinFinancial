@@ -23,8 +23,7 @@ const appRoutes: Routes = [
       appRoutes,
       { enableTracing: true}
     ),
-    BrowserModule,
-    Routes
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

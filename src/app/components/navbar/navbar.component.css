@@ -1,0 +1,21 @@
+.navbar {
+  height: 100px;
+  background-color: rgba(0,0,0,.6);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.logoSection {
+  width: 150px;
+}
+
+.logo {
+  font-size: 50px;
+}
+
+.navBtnSection {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
