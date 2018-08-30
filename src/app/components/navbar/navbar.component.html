@@ -3,6 +3,6 @@
     <div class="logo">LOGO</div>
   </div>
   <div class="navBtnSection" *ngFor = "let button of buttons">
-    <app-navbar-button id="{{button}}">{{button}}</app-navbar-button>
+    <div class="navBtn"><div id={{button}} class="navBtnActual">{{button}}</div></div>
   </div>
 </div>

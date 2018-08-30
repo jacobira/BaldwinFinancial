@@ -1,6 +1,16 @@
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
   background-image: url("app/media-items/background.jpg");
   background-size: cover;
-  min-width: 1200px;
+  position: fixed;
+  overflow: auto;
+  min-width: 1050px;
+  min-height: 600px;
 }

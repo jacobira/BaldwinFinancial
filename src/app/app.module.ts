@@ -5,10 +5,11 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
-import { NavbarButtonComponent } from './components/navbar/navbar-button/navbar-button.component';
+import { LabelsService } from './services/labels.service';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomePageComponent, data: {title: 'Home'} }
+  { path: 'home', component: HomePageComponent, data: {title: 'Home'}},
+  { path: '*/', component: HomePageComponent, data: {title: 'Home'}}
 ];
 
 @NgModule({
@@ -16,7 +17,6 @@ const appRoutes: Routes = [
     AppComponent,
     NavbarComponent,
     HomePageComponent,
-    NavbarButtonComponent
   ],
   imports: [
     RouterModule.forRoot(
@@ -25,7 +25,7 @@ const appRoutes: Routes = [
     ),
     BrowserModule
   ],
-  providers: [],
+  providers: [LabelsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
