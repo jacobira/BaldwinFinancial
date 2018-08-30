@@ -1,0 +1,37 @@
+.homePage {
+    height: calc(100% - 125px);
+    display: flex;
+    
+}
+
+.leftPage {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.portrait {
+    height: 400px;
+    width: 300px;
+    margin-left: calc(100% - 400px);
+    background-image: url(../../media-items/Baldwin_0002_DSC_0469.jpg);
+    background-size: cover;
+    background-position-x: -10px;
+    box-shadow: 3px 5px 15px black;
+}
+
+.rightPage {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+ 
+.info {
+    width: 80%;
+    color: lightgray;
+    text-shadow: 0px 0px 7px black, 0px 0px 7px black;
+    font-size: 30px;
+    font-family: 'Marcellus', serif;
+}
