@@ -15,7 +15,7 @@
   font-size: 25px;
   text-align: center;
   color: black;
-  text-shadow: 0 0 2px #F0B315;
+  text-shadow: 0 0 1px #F0B315, 0 0 1px #F0B315, 0 0 1px #F0B315;
 }
 
 .navBtnSection {
@@ -36,9 +36,10 @@
 .navBtnActual {
   width: 170px;
   color: black;
-  text-shadow: 0 0 1px white;
+  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white;
   font-family: 'Marcellus', serif;
   font-size: 20px;
   text-align: center;
   cursor: pointer;
+  
 }

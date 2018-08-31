@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Marcellus');
 
+*:focus {
+  outline: 0;
+  outline: none;
+  }
+
 body {
   height: 100%;
   width: 100%;

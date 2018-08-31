@@ -12,11 +12,11 @@ import { FinancialServicesPageComponent } from './components/financial-services-
 import { AboutRockyPageComponent } from './components/about-rocky-page/about-rocky-page.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomePageComponent, data: {title: 'Home'}},
-  { path: 'cma-classes', component: CmaClassPageComponent, data: {title: 'CMA Classes'}},
-  { path: 'financial-services', component: FinancialServicesPageComponent, data: {title: 'Financial Services'}},
-  { path: 'about-rocky', component: AboutRockyPageComponent, data: {title: 'About Rocky'}},
-  { path: '', redirectTo: '/home', pathMatch: 'full'}
+  { path: 'Home', component: HomePageComponent, data: {title: 'Home'}},
+  { path: 'CMA Classes', component: CmaClassPageComponent, data: {title: 'CMA Classes'}},
+  { path: 'Financial Services', component: FinancialServicesPageComponent, data: {title: 'Financial Services'}},
+  { path: 'About Rocky', component: AboutRockyPageComponent, data: {title: 'About Rocky'}},
+  { path: '', redirectTo: '/Home', pathMatch: 'full'}
 ];
 
 @NgModule({

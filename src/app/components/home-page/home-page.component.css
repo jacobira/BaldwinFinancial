@@ -31,7 +31,7 @@
 .info {
     width: 80%;
     color: lightgray;
-    text-shadow: 0px 0px 7px black, 0px 0px 7px black;
+    text-shadow: 0px 0px 7px black, 0px 0px 7px black, 0px 0px 7px black;
     font-size: 30px;
     font-family: 'Marcellus', serif;
 }
